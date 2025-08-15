@@ -1,7 +1,7 @@
 // Contact form functionality with EmailJS integration
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize EmailJS (replace with your actual EmailJS public key)
-    emailjs.init("YOUR_EMAILJS_PUBLIC_KEY"); // You need to replace this with your actual key
+    emailjs.init("QFT5053kkeqGBZQ_x"); // You need to replace this with your actual key
     
     initializeContactForm();
 });
@@ -263,8 +263,8 @@ function getLocationFullName(value) {
  */
 async function sendEmail(data) {
     // Note: In a production environment, you would replace this with your actual EmailJS configuration
-    const serviceID = 'YOUR_SERVICE_ID';
-    const templateID = 'YOUR_TEMPLATE_ID';
+    const serviceID = 'service_2r9vyua';
+    const templateID = 'template_30ngno2';
     
     const templateParams = {
         to_name: 'Dr. Mohidur Rahman Khan (Shuvo)',
